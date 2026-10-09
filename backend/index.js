@@ -19,3 +19,4 @@ mongoose.connection.once('open', () => {
     console.log(`server running on http://localhost:${process.env.PORT}`)
   })
 })
+module.exports = app
